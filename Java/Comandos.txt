@@ -1,0 +1,104 @@
+========================================
+   COMPILAR Y EJECUTAR UN PROGRAMA JAVA
+========================================
+
+Supongamos que tu archivo se llama:
+
+    Bienvenido.java
+
+y dentro contiene una clase pública llamada:
+
+    public class Bienvenido
+
+----------------------------------------
+1. ABRIR UNA TERMINAL
+----------------------------------------
+
+Ubícate en la carpeta donde guardaste el archivo.
+
+Ejemplo:
+
+    cd ruta/de/tu/proyecto
+
+----------------------------------------
+2. COMPILAR EL PROGRAMA
+----------------------------------------
+
+Ejecuta:
+
+    javac Bienvenido.java
+
+Si no hay errores, Java generará un archivo llamado:
+
+    Bienvenido.class
+
+----------------------------------------
+3. EJECUTAR EL PROGRAMA
+----------------------------------------
+
+Ejecuta:
+
+    java Bienvenido
+
+IMPORTANTE:
+- No escribas ".java"
+- No escribas ".class"
+- Solo usa el nombre de la clase
+
+----------------------------------------
+EJEMPLO COMPLETO
+----------------------------------------
+
+    cd ruta/de/tu/proyecto
+
+    javac Bienvenido.java
+
+    java Bienvenido
+
+----------------------------------------
+VERIFICAR QUE JAVA ESTÁ INSTALADO
+----------------------------------------
+
+Puedes comprobarlo con:
+
+    java --version
+    javac --version
+
+Si ambos comandos muestran una versión, Java está instalado correctamente.
+
+----------------------------------------
+ERRORES COMUNES
+----------------------------------------
+
+1. Error:
+       class Bienvenido is public, should be
+       declared in a file named Bienvenido.java
+
+   Solución:
+       El nombre del archivo debe coincidir
+       exactamente con el nombre de la clase.
+
+2. Error:
+       'javac' no se reconoce como un comando
+
+   Solución:
+       Instalar el JDK y configurar la variable PATH.
+
+3. Error:
+       Could not find or load main class Bienvenido
+
+   Solución:
+       Verificar que:
+       - El archivo fue compilado correctamente.
+       - Estás en la carpeta correcta.
+       - El nombre de la clase es Bienvenido.
+
+----------------------------------------
+RESUMEN RÁPIDO
+----------------------------------------
+
+    javac Bienvenido.java
+    java Bienvenido
+
+¡Listo! Con esos dos comandos puedes compilar y ejecutar
+la mayoría de los programas básicos en Java.
